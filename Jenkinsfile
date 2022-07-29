@@ -4,7 +4,7 @@ pipeline
     environment{
         imageName = "myapp"
         registryCredentials = "nexusid"
-        registry = "44.201.219.187:8083"
+        registry = "18.208.249.204:8083"
         dockerImage = ''
     }
     options {
@@ -32,7 +32,7 @@ pipeline
                      ]],
                     credentialsId: 'nexusid',
                     groupId: 'com.example',
-                    nexusUrl: '44.201.219.187:8081',
+                    nexusUrl: '18.208.249.204:8081',
                     nexusVersion: 'nexus3',
                     protocol: 'http',
                     repository: nexusRepoName ,
